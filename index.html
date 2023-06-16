@@ -4,41 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn HTML</title>
+    <style>
+        h2{
+            color:green;
+        }
+        #uniq{
+            color:pink !important;
+        }
+        .color-accent {
+            color:red;
+        }
+        .color-info{
+            color:blue;
+        }
+        .color-accent.color-info{
+            color:yellow;
+        }
+        h2#uniq.color-accent{
+            color:purple;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="./pages/about.html">about</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="blank">developer.mozilla</a></li>
-                <li><a href="https://www.google.com/" target="blank">google.com</a></li>
-                <li><a href="#article1">article 1</a></li>
-                <li><a href="#article2">article 2</a></li>
-                <li><a href="#article3">article 3</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <article id="article1">
-            <h2>title for article 1</h2>
-            <p>Lorem ipsum dolor sit amet <del>consectetur adipisicing elit</del>. <ins>Quia, sunt. Odit</ins>, explicabo laboriosam quis sequi maiores commodi quibusdam inventore blanditiis assumenda dolore voluptatem?</p>
-            <p>Porro est eligendi <a href="#article3">Iusto aspernatur delectus</a>nostrum ratione?  molestiae, voluptatum, possimus in laborum enim, est voluptatem expedita praesentium commodi! Quam sapiente laudantium exercitationem.</p>
-            <p>Non dolore quas provident, magnam dolor ipsum dolores inventore eum officiis itaque ullam minima sit odit unde quo ducimus nam quidem. Sed, ipsum.</p>
-        </article>
-        <article id="article2">
-            <h2>title for article 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facilis. Voluptates provident tenetur, ipsa, aut beatae nam ratione laboriosam tempora quisquam mollitia delectus?</p>
-            <p>Amet nemo commodi eius neque error architecto cumque modi consectetur facilis voluptatem, deserunt corrupti voluptas cum, ea at omnis voluptatum voluptates, quaerat eum!</p>
-            <p>Possimus voluptatibus, ipsa unde, voluptate quae atque id totam illum hic nulla doloribus aliquid soluta eos iusto sint, maxime fugiat eligendi. Corrupti, debitis.</p>
-        </article>
-        <article id="article3">
-            <h2>title for article 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda, nostrum cupiditate molestiae quia hic optio saepe. Eum obcaecati omnis praesentium dicta sunt!</p>
-            <p>Nulla eum corrupti provident placeat, sed accusamus modi maiores, dicta voluptates ea facilis! Qui aliquid sapiente quis at temporibus maiores iste nesciunt officia.</p>
-            <p>Fugiat saepe similique eaque tempora ipsa voluptatibus sed, odio sapiente iusto dolore neque rerum obcaecati architecto corporis. Recusandae neque sit eligendi saepe voluptates!</p>
-        </article>
-    </main>
-    <footer>&copy; Sabina 2023</footer>
+    <h2 style="color:chocolate;">title heading 1</h2>
+    <h2 class="color-accent color-info">title heading 2</h2>
+    <h2 id="uniq" class="color-accent">title heading 3</h2>
+    <h2>title heading 4</h2>
+    <h2 class="color-accent">title heading 5</h2>
+    <h2>title heading 6</h2>
 </body>
 </html>
