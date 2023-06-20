@@ -1,28 +1,30 @@
-body{
-    margin: 0;
-    box-sizing: border-box;
-}
-div{
-    border: 3px solid red;
-}
-.wrapper{
-    max-width: 700px;
-    min-width: 500px;
-    width: 80%;
-    max-height: 700px;
-    min-height: 500px;
-    height: 600px;
+table{
+    max-width: 1100px;
+    width: 70%;
+    min-width: 600px;
+    border: 3px solid blue;
+    border-collapse: collapse;
+    border-spacing: 12px;
     margin: auto;
 }
-.inner{
-border-color: blue;
-width: 50%;
-height: 30%;
-padding: 10%;
-}   
-img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: center center;
+th,
+td{
+    border: 3px solid red;
+}
+td{
+    width: 20%;
+    vertical-align: bottom;
+}
+p{
+    margin: 0;
+}
+.first-col{
+    width: 50px;
+}
+.gor-right{
+    text-align: right;
+}
+caption{
+    text-align: left;
+    caption-side: bottom;
 }
