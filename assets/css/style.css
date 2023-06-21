@@ -1,78 +1,26 @@
 :root{
-    font-size: 14px;
-    color: purple;
+    font-size: 18px;
 }
-
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
-/* :hover{
-    color: #fff;
-} */
 body{
     padding: 0;
     margin: 0;
+}
+.container{
+font-size: 2em;
+}
+p{
+/* font-size: 3em; */
+padding: 5%;
+text-indent: 1.8em;
+font-size: 2.4rem;
+line-height: 1.2em;
+}
+.wrapper{
 
-    font-family: serif;
 }
-a{
-    color: inherit;
-}
-a:-webkit-any-link{
-    color: #fff;
-}
-a:link{
-    color: #fff;
-}
-a:visited{
-    color: #000;
-}
-a:hover{
-    color: red;
-}
-/* a:active{
-    color: blue;
-} */
-#container{
-    width: 95%;
-    padding: 2%;
-    border: 1px solid red;
-    margin: auto;
-}
-.block{
-    border: 3px solid blue;
-}
-#container p{
-    background-color: yellow;
-}
-#container p:last-child{
-    background-color: orange;
-}
-#container p:nth-child(3){
-    background-color: darkred;
-}
-#container p:nth-child(3):focus{
-    color: #fff;
-}
-#container>p{
-    background-color: pink;
-    font-size: 1.5rem;
-}
-#container p+p{
-    background-color: lime;
-}
-#container>p~blockquote{
-    background-color: aqua;
-}
-a[target="_blank"]{
-    font-size: 2em;
-}
-li:nth-child(even){
-    background-color: yellow;
-}
-li:nth-child(odd){
-    background-color: purple;
-}
-li:nth-child(3n+4){
-    background-color: blue;
+.inner{
+
 }
